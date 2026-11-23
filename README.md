@@ -1,9 +1,5 @@
 # Sistema de Bibliotecas y Libros - Frontend
 
-Aplicación frontend desarrollada con Angular para el taller práctico de Sistema de Bibliotecas y Libros.
-
-La aplicación permite registrar bibliotecas y consultar los libros asociados a cada una, consumiendo el backend desarrollado con Spring Boot mediante solicitudes HTTP.
-
 ## Funcionalidades implementadas
 
 - Formulario para registrar una biblioteca.
