@@ -59,7 +59,7 @@ npm start
 
 Abre `http://localhost:4200` en el navegador.
 
-## Prueba esperada
+## Prueba 
 
 Al abrir la aplicación se muestran los libros de prueba con sus bibliotecas:
 
@@ -68,6 +68,3 @@ Al abrir la aplicación se muestran los libros de prueba con sus bibliotecas:
 | Cien años de soledad | Gabriel García Márquez | 1967 | Biblioteca Central |
 | El coronel no tiene quien le escriba | Gabriel García Márquez | 1961 | Biblioteca Norte |
 
-## Alcance del taller
-
-Incluye únicamente el registro de bibliotecas y la consulta de bibliotecas con sus libros asociados. No incluye edición, eliminación, autenticación, formulario de libros ni CRUD de libros.
