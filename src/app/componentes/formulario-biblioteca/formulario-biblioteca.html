@@ -1,0 +1,31 @@
+<section>
+  <h2>Registrar biblioteca</h2>
+
+  <form [formGroup]="formulario" (ngSubmit)="registrar()">
+    <label>
+      Nombre
+      <input formControlName="nombre">
+    </label>
+    @if (formulario.controls.nombre.touched && formulario.controls.nombre.hasError('required')) {
+      <small>El nombre es obligatorio.</small>
+    }
+
+    <label>
+      Dirección
+      <input formControlName="direccion">
+    </label>
+    @if (formulario.controls.direccion.touched && formulario.controls.direccion.hasError('required')) {
+      <small>La dirección es obligatoria.</small>
+    }
+
+    <label>
+      Ciudad
+      <input formControlName="ciudad">
+    </label>
+    @if (formulario.controls.ciudad.touched && formulario.controls.ciudad.hasError('required')) {
+      <small>La ciudad es obligatoria.</small>
+    }
+
+    <button type="submit">Registrar biblioteca</button>
+  </form>
+</section>

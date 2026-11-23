@@ -1,0 +1,26 @@
+<section>
+  <h2>Libros registrados</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Título</th>
+        <th>Autor</th>
+        <th>Año</th>
+        <th>Biblioteca</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (biblioteca of bibliotecas; track biblioteca.id) {
+        @for (libro of biblioteca.libros; track libro.id) {
+          <tr>
+            <td>{{ libro.titulo }}</td>
+            <td>{{ libro.autor }}</td>
+            <td>{{ libro.anioPublicacion }}</td>
+            <td>{{ biblioteca.nombre }}</td>
+          </tr>
+        }
+      }
+    </tbody>
+  </table>
+</section>
